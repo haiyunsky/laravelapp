@@ -1,0 +1,21 @@
+
+1)
+-------------------------------------------
+$ cd C:\xampp\htdocs\
+$ laravel new reservation
+
+2) database name: laravel
+-------------------------------------
+php artisan make:migration reservation_table
+php artisan migrate
+
+php artisan make:model Models/Reservation
+
+php artisan make:controller ReservationController
+php artisan make:controller ReservationAppController
+
+
+
+
+
+
